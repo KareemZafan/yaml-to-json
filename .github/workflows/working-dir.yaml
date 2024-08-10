@@ -8,9 +8,9 @@ jobs:
               run: |
                 pwd
                 ls -a 
-                $echo GITHUB_SHA
-                $echo GITHUB_REPOSITORY
-                $echo GITHUB_WORKSPACE
+                echo $GITHUB_SHA
+                echo $GITHUB_REPOSITORY
+                echo $GITHUB_WORKSPACE
 
     working-directory-windows: 
         runs-on: windows-latest
